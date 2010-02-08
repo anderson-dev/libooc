@@ -1,0 +1,16 @@
+A basic library that introduces object-oriented concepts and
+features to ANSI C.
+
+This project is intended as a learning exercise for me while
+going through the "Object-Oriented Programming in ANSI-C"
+pdf available at http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
+
+Using the Objective-C & GNUStep runtimes as references, many
+features and concepts may appear similar but, at least for
+the first version, I intend to use only the standard C compiler
+and not Objective-C nor do I intend on building out the whole
+resident runtime as it is done in Objective-C. I may devise
+a way to generate class descriptions automatically but at
+first, I will just create seperate class descriptions (AKA
+MetaClasses; .r files), interfaces (.h files), and
+implementations (.c files).
